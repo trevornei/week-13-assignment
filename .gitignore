@@ -1,0 +1,22 @@
+# .gitignore
+
+# Dependencies
+/node_modules
+
+# Vite build output
+/dist
+
+# Environment files
+.env
+
+# Editor folders and files
+.idea
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+
+# Operating system generated
+.DS_Store
+Thumbs.db
