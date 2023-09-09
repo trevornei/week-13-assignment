@@ -1,5 +1,13 @@
 import React, {Component} from 'react' 
-
+// 1. export default: Allows components to be accessed in other modules.
+// 2. class Nav: Classes are used in React to explicitly define component. 
+        // NOTE: The primary way to define components now is to use hooks. 
+// 3. extends allows the React library to apply the functionality of lifecycle methods.
+//STUB - Lifecycle Methdods:
+            // 1. Mounting
+            // 2. Unmounting
+            // 3. Updating
+            // 4. Error Handling
 export default class Nav extends Component {
     render() {
         return (
